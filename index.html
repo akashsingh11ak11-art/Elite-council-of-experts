@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The EliteCouncil Of Experts | Premium Preparation</title>
+    <title>The ELITE COUNCIL OF EXPERTS | Premium Coaching in Kota</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -27,135 +27,310 @@
             align-items: center;
             justify-content: center;
             text-decoration: none;
-            transition: transform 0.3s ease;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
             box-shadow: none; 
             border: 2px solid white;
         }
         .whatsapp-float:hover {
             transform: scale(1.1);
             color: white;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
         }
-        .logo-img {
-            width: 65px;
-            height: 65px;
-            border-radius: 50%;
-            object-fit: cover;
+
+        .form-input {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+        }
+        .form-input:focus {
+            outline: none;
+            border-color: #1D4ED8;
+            background-color: #fff;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in {
+            animation: fadeIn 0.8s ease-out forwards;
+        }
+
+        @keyframes stylizedPulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+            100% { transform: scale(1); }
+        }
+        .coaching-name-navbar {
+            animation: stylizedPulse 4s ease-in-out infinite;
         }
     </style>
 </head>
 <body class="font-sans antialiased text-gray-800 bg-gray-50">
 
-    <!-- WhatsApp Floating Button -->
+    <!-- FLOATING WHATSAPP BUTTON -->
     <a href="https://wa.me/919205402873" class="whatsapp-float" target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>
 
-    <!-- Navbar -->
+    <!-- NAVBAR -->
     <nav class="bg-white shadow-md fixed w-full z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-20 items-center">
-                <div class="flex-shrink-0">
-                    <img src="https://i.ibb.co/nsFjM1Md/IMG-20260513-WA0002.jpg" alt="Logo" class="logo-img">
+            <div class="flex justify-between items-center h-auto py-3">
+                <div class="flex-shrink-0 flex items-center gap-2 coaching-name-navbar">
+                    <span class="text-lg md:text-xl font-black text-gray-900 tracking-tighter uppercase leading-tight">
+                        <span class="royal-blue-text">THE ELITE</span> COUNCIL<br/>
+                        <span class="text-sm font-bold text-gray-700 tracking-normal text-yellow-500">OF EXPERTS</span>
+                    </span>
                 </div>
                 <div>
-                    <a href="https://wa.me/919205402873" class="bg-yellow-500 text-blue-900 px-6 py-2 rounded-full font-bold shadow hover:bg-yellow-400 transition">Book Demo</a>
+                    <a href="#admission-form" class="bg-yellow-500 text-blue-900 px-6 py-2 rounded-full font-bold shadow hover:bg-yellow-400 transition transform hover:scale-105">Book Demo</a>
                 </div>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="pt-36 pb-20 royal-blue text-white">
+    <!-- HERO SECTION -->
+    <section class="pt-40 pb-20 royal-blue text-white animate-fade-in">
         <div class="max-w-7xl mx-auto px-4 text-center">
             <h2 class="text-yellow-400 font-bold uppercase tracking-wider text-sm mb-4">Stuck at Band 5.5 or 6?</h2>
             <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">Break Score Barriers with Expert-Led Preparation</h1>
             <p class="text-lg md:text-xl text-blue-100 max-w-3xl mx-auto mb-10">Get Band 7+ & 8+ Focused Training with personalized mentorship and real exam strategies.</p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="https://wa.me/919205402873" class="bg-yellow-500 text-blue-900 font-bold py-4 px-10 rounded-full text-lg shadow-lg hover:bg-yellow-400 transition">Book a Free Demo</a>
+                <a href="#admission-form" class="bg-yellow-500 text-blue-900 font-bold py-4 px-10 rounded-full text-lg shadow-lg hover:bg-yellow-400 transition transform hover:scale-105">Get Admission Now</a>
                 <a href="#exams" class="border-2 border-white py-4 px-10 rounded-full text-lg font-bold hover:bg-white hover:text-blue-900 transition">Explore Exams</a>
             </div>
         </div>
     </section>
 
-    <!-- Exams Section (Increased Card Size) -->
-    <section id="exams" class="py-24 bg-white">
+    <!-- EXAMS SECTION -->
+    <section id="exams" class="py-24 bg-white animate-fade-in">
         <div class="max-w-7xl mx-auto px-4 text-center">
             <h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-6">International English Exams</h2>
             <p class="text-lg text-gray-600 mb-14">Comprehensive preparation for your global dreams.</p>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-10 text-left">
-                <div class="p-12 border rounded-3xl hover:shadow-2xl transition royal-blue-border border-t-8 bg-gray-50">
-                    <h3 class="text-3xl font-extrabold royal-blue-text mb-4">IELTS</h3>
-                    <p class="text-gray-600 text-lg">Academic & General preparation with advanced strategies for all four modules.</p>
+                <div class="p-12 border rounded-3xl hover:shadow-2xl transition royal-blue-border border-t-8 bg-gray-50 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-3xl font-extrabold royal-blue-text mb-4">IELTS</h3>
+                        <p class="text-gray-600 text-lg leading-relaxed">Academic & General preparation with advanced strategies for all four modules.</p>
+                    </div>
                 </div>
-                <div class="p-12 border rounded-3xl hover:shadow-2xl transition royal-blue-border border-t-8 bg-gray-50">
-                    <h3 class="text-3xl font-extrabold royal-blue-text mb-4">PTE Academic</h3>
-                    <p class="text-gray-600 text-lg">AI-focused preparation with real exam simulations and scoring techniques.</p>
+                <div class="p-12 border rounded-3xl hover:shadow-2xl transition royal-blue-border border-t-8 bg-gray-50 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-3xl font-extrabold royal-blue-text mb-4">PTE Academic</h3>
+                        <p class="text-gray-600 text-lg leading-relaxed">AI-focused preparation with real exam simulations and scoring techniques.</p>
+                    </div>
                 </div>
-                <div class="p-12 border rounded-3xl hover:shadow-2xl transition royal-blue-border border-t-8 bg-gray-50">
-                    <h3 class="text-3xl font-extrabold royal-blue-text mb-4">TOEFL & More</h3>
-                    <p class="text-gray-600 text-lg">Targeted training for University admissions, PR, and Healthcare professionals.</p>
+                <div class="p-12 border rounded-3xl hover:shadow-2xl transition royal-blue-border border-t-8 bg-gray-50 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-3xl font-extrabold royal-blue-text mb-4">TOEFL & CELPIP</h3>
+                        <p class="text-gray-600 text-lg leading-relaxed">Specialized training for University admissions, PR, and Healthcare professionals.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Experience Section -->
-    <section class="py-20 bg-gray-50">
+    <!-- PREMIUM LEARNING EXPERIENCE (Restored Section) -->
+    <section class="py-20 bg-gray-50 animate-fade-in">
         <div class="max-w-7xl mx-auto px-4">
-            <div class="royal-blue rounded-3xl p-10 md:p-16 text-white shadow-2xl">
-                <h2 class="text-3xl md:text-5xl font-bold mb-12 text-center">Premium Learning Experience</h2>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-blue-50 text-lg">
-                    <div class="flex items-center space-x-4 bg-white bg-opacity-10 p-5 rounded-xl"><i class="fas fa-video text-yellow-400"></i><span>Live Interactive Sessions</span></div>
-                    <div class="flex items-center space-x-4 bg-white bg-opacity-10 p-5 rounded-xl"><i class="fas fa-users text-yellow-400"></i><span>Small Focused Batches</span></div>
-                    <div class="flex items-center space-x-4 bg-white bg-opacity-10 p-5 rounded-xl"><i class="fas fa-chart-bar text-yellow-400"></i><span>Weekly Mock Tests</span></div>
-                    <div class="flex items-center space-x-4 bg-white bg-opacity-10 p-5 rounded-xl"><i class="fas fa-user-graduate text-yellow-400"></i><span>Personalized Mentorship</span></div>
-                    <div class="flex items-center space-x-4 bg-white bg-opacity-10 p-5 rounded-xl"><i class="fas fa-file-alt text-yellow-400"></i><span>Daily Practice Materials</span></div>
-                    <div class="flex items-center space-x-4 bg-white bg-opacity-10 p-5 rounded-xl"><i class="fas fa-clock text-yellow-400"></i><span>Flexible Class Timings</span></div>
+            <div class="royal-blue rounded-3xl p-10 md:p-16 text-white shadow-2xl text-center">
+                <h2 class="text-3xl md:text-5xl font-bold mb-12">Premium Learning Experience</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-blue-50 text-lg text-left">
+                    <div class="flex items-center space-x-4 bg-white bg-opacity-10 p-5 rounded-xl transition hover:bg-opacity-20"><i class="fas fa-video text-yellow-400 text-2xl"></i><span class="font-medium">Live Interactive Sessions</span></div>
+                    <div class="flex items-center space-x-4 bg-white bg-opacity-10 p-5 rounded-xl transition hover:bg-opacity-20"><i class="fas fa-users text-yellow-400 text-2xl"></i><span class="font-medium">Small Focused Batches</span></div>
+                    <div class="flex items-center space-x-4 bg-white bg-opacity-10 p-5 rounded-xl transition hover:bg-opacity-20"><i class="fas fa-chart-bar text-yellow-400 text-2xl"></i><span class="font-medium">Weekly Mock Tests</span></div>
+                    <div class="flex items-center space-x-4 bg-white bg-opacity-10 p-5 rounded-xl transition hover:bg-opacity-20"><i class="fas fa-user-graduate text-yellow-400 text-2xl"></i><span class="font-medium">Personalized Mentorship</span></div>
+                    <div class="flex items-center space-x-4 bg-white bg-opacity-10 p-5 rounded-xl transition hover:bg-opacity-20"><i class="fas fa-file-alt text-yellow-400 text-2xl"></i><span class="font-medium">Daily Practice Materials</span></div>
+                    <div class="flex items-center space-x-4 bg-white bg-opacity-10 p-5 rounded-xl transition hover:bg-opacity-20"><i class="fas fa-clock text-yellow-400 text-2xl"></i><span class="font-medium">Flexible Class Timings</span></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Testimonials Section -->
-    <section class="py-24 bg-white">
+    <!-- STUDENT REVIEWS SECTION (Fixed Names and Chokar/Square Design) -->
+    <section class="py-24 bg-white animate-fade-in">
         <div class="max-w-7xl mx-auto px-4 text-center">
-            <h2 class="text-3xl md:text-4xl font-bold mb-14 text-gray-900">What Our Students Say</h2>
-            <div class="grid md:grid-cols-2 gap-12 text-left">
-                <div class="bg-blue-50 p-10 rounded-3xl border border-blue-100 shadow-sm">
-                    <i class="fas fa-quote-left text-4xl text-blue-200 mb-6 block"></i>
-                    <p class="text-gray-700 italic text-xl mb-6">"The personalized feedback completely transformed my preparation. I finally broke my score barrier!"</p>
-                    <p class="font-extrabold royal-blue-text">— IELTS Student</p>
+            <h2 class="text-3xl md:text-5xl font-bold mb-14 text-gray-900 tracking-tighter">Success Stories from Our Experts</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-left">
+                
+                <!-- Card 1: Male -->
+                <div class="bg-gray-50 rounded-3xl shadow-sm border border-gray-100 flex flex-col hover:shadow-xl transition transform hover:-translate-y-2 p-6">
+                    <img src="https://i.ibb.co/B2TCRkBg/IMG-20260504-WA0000-1.jpg" alt="Student 1" class="w-full h-64 object-cover rounded-2xl mb-6 border border-gray-200">
+                    <div class="flex-grow flex flex-col justify-between">
+                        <div>
+                            <div class="flex text-yellow-400 text-sm mb-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <p class="text-gray-700 italic mb-6 leading-relaxed">"Best coaching for PTE Academic in Kota. The AI software practice and full-length mock tests prepared me exactly for the final exam."</p>
+                        </div>
+                        <div class="border-t border-gray-200 pt-4 mt-auto">
+                            <p class="font-bold royal-blue-text text-xl">Rahul Verma</p>
+                            <p class="text-sm text-gray-500 font-bold uppercase tracking-wider">PTE Score 82</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="bg-blue-50 p-10 rounded-3xl border border-blue-100 shadow-sm">
-                    <i class="fas fa-quote-left text-4xl text-blue-200 mb-6 block"></i>
-                    <p class="text-gray-700 italic text-xl mb-6">"The speaking sessions helped me become more fluent. The strategies taught here made a huge difference."</p>
-                    <p class="font-extrabold royal-blue-text">— PTE Student</p>
+                
+                <!-- Card 2: Female -->
+                <div class="bg-gray-50 rounded-3xl shadow-sm border border-gray-100 flex flex-col hover:shadow-xl transition transform hover:-translate-y-2 p-6">
+                    <img src="https://i.ibb.co/R44GkgLs/IMG-20260504-WA0001-1.jpg" alt="Student 2" class="w-full h-64 object-cover rounded-2xl mb-6 border border-gray-200">
+                    <div class="flex-grow flex flex-col justify-between">
+                        <div>
+                            <div class="flex text-yellow-400 text-sm mb-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <p class="text-gray-700 italic mb-6 leading-relaxed">"The templates for IELTS Writing are the best I've found. I was stuck at 6, but thanks to personalized feedback, I scored 7.5!"</p>
+                        </div>
+                        <div class="border-t border-gray-200 pt-4 mt-auto">
+                            <p class="font-bold royal-blue-text text-xl">Priya Sharma</p>
+                            <p class="text-sm text-gray-500 font-bold uppercase tracking-wider">IELTS Band 7.5</p>
+                        </div>
+                    </div>
                 </div>
+                
+                <!-- Card 3: Male -->
+                <div class="bg-gray-50 rounded-3xl shadow-sm border border-gray-100 flex flex-col hover:shadow-xl transition transform hover:-translate-y-2 p-6">
+                    <img src="https://i.ibb.co/QjfY9p59/IMG-20260504-WA0002-1.jpg" alt="Student 3" class="w-full h-64 object-cover rounded-2xl mb-6 border border-gray-200">
+                    <div class="flex-grow flex flex-col justify-between">
+                        <div>
+                            <div class="flex text-yellow-400 text-sm mb-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <p class="text-gray-700 italic mb-6 leading-relaxed">"Flexible timings allowed me to prepare for OET while managing my shifts at the hospital. Professional material and experienced faculty!"</p>
+                        </div>
+                        <div class="border-t border-gray-200 pt-4 mt-auto">
+                            <p class="font-bold royal-blue-text text-xl">Dr. Arjun Singh</p>
+                            <p class="text-sm text-gray-500 font-bold uppercase tracking-wider">OET Qualified</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 4: Female -->
+                <div class="bg-gray-50 rounded-3xl shadow-sm border border-gray-100 flex flex-col hover:shadow-xl transition transform hover:-translate-y-2 p-6">
+                    <img src="https://i.ibb.co/gF3pYS5f/IMG-20260505-WA0000-1.jpg" alt="Student 4" class="w-full h-64 object-cover rounded-2xl mb-6 border border-gray-200">
+                    <div class="flex-grow flex flex-col justify-between">
+                        <div>
+                            <div class="flex text-yellow-400 text-sm mb-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <p class="text-gray-700 italic mb-6 leading-relaxed">"I needed personalized attention due to my job. The trainers were so supportive, and the small batch size ensured all my doubts were solved."</p>
+                        </div>
+                        <div class="border-t border-gray-200 pt-4 mt-auto">
+                            <p class="font-bold royal-blue-text text-xl">Sneha Kaur</p>
+                            <p class="text-sm text-gray-500 font-bold uppercase tracking-wider">IELTS Band 8.0</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Final CTA Section -->
-    <section class="py-28 bg-gray-50 text-center">
+    <!-- FORM SECTION with direct Submit button -->
+    <section id="admission-form" class="py-24 bg-gray-50 animate-fade-in">
         <div class="max-w-4xl mx-auto px-4">
-            <h2 class="text-4xl md:text-5xl font-extrabold royal-blue-text mb-8">Your Global Dreams Deserve Premium Preparation</h2>
-            <a href="https://wa.me/919205402873" class="royal-blue text-white font-bold py-5 px-12 rounded-full text-xl shadow-xl inline-block hover:scale-105 transition transform">Reserve Demo via WhatsApp</a>
-            <p class="mt-8 text-xl font-bold royal-blue-text">Call Us: 9205402873</p>
+            <div class="royal-blue text-white rounded-3xl p-8 md:p-16 shadow-2xl relative overflow-hidden">
+                <div class="relative z-10">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4 text-center">Join The ELITE COUNCIL Today</h2>
+                    <p class="text-center text-blue-100 mb-10 max-w-2xl mx-auto">Fill in the details below to start your premium preparation journey.</p>
+                    
+                    <form id="whatsappForm" class="text-gray-800 bg-white p-10 rounded-2xl shadow-inner border border-gray-100">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="text-gray-900 font-bold mb-2 block">Student Name (Naam)</label>
+                                <input type="text" id="name" class="form-input" placeholder="Enter your full name" required>
+                            </div>
+                            <div>
+                                <label class="text-gray-900 font-bold mb-2 block">Mobile Number (Namber)</label>
+                                <input type="tel" id="mobile" class="form-input" placeholder="Enter mobile number" required>
+                            </div>
+                        </div>
+                        <div class="mt-6">
+                            <label class="text-gray-900 font-bold mb-2 block">Choose Course</label>
+                            <select id="course" class="form-input" required>
+                                <option value="">Select a Course</option>
+                                <option value="IELTS">IELTS (Academic/General)</option>
+                                <option value="PTE Academic">PTE Academic</option>
+                                <option value="TOEFL iBT">TOEFL iBT</option>
+                                <option value="OET Healthcare">OET (Healthcare)</option>
+                                <option value="CELPIP">CELPIP</option>
+                                <option value="Spoken English">Spoken English</option>
+                            </select>
+                        </div>
+                        <div class="mt-6">
+                            <label class="text-gray-900 font-bold mb-2 block">Current Address</label>
+                            <textarea id="address" class="form-input" rows="3" placeholder="Enter your full address" required></textarea>
+                        </div>
+                        
+                        <div class="mt-12 text-center">
+                            <!-- Submit Button simplified -->
+                            <button type="button" onclick="sendToWhatsApp()" class="bg-yellow-500 text-blue-900 font-extrabold py-5 px-20 rounded-full text-xl shadow-xl hover:bg-yellow-400 transition uppercase tracking-wider transform hover:scale-105">SUBMIT</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-16">
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-white py-20 animate-fade-in">
         <div class="max-w-7xl mx-auto px-4 text-center">
-            <img src="https://i.ibb.co/nsFjM1Md/IMG-20260513-WA0002.jpg" alt="Logo" class="h-24 w-24 rounded-full mx-auto mb-6 border-2 border-gray-700 object-cover">
-            <p class="text-2xl font-bold mb-2">The EliteCouncil Of Experts</p>
-            <p class="text-gray-400 mb-8">Contact: +91 9205402873</p>
-            <div class="text-gray-500 text-sm border-t border-gray-800 pt-8">
+            <p class="text-3xl font-black tracking-tighter mb-4 uppercase leading-tight">
+                <span class="royal-blue-text">THE ELITE</span> COUNCIL<br/>
+                <span class="text-sm font-bold text-gray-300 tracking-normal text-yellow-500">OF EXPERTS</span>
+            </p>
+            <p class="text-gray-400 mb-12 max-w-lg mx-auto">Premium English Proficiency Training designed to help you settle abroad with ease.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left max-w-4xl mx-auto border-t border-gray-800 pt-12 mt-12">
+                <div class="flex items-start space-x-4 bg-gray-800 p-6 rounded-xl">
+                    <i class="fas fa-map-marker-alt text-yellow-500 text-2xl mt-1"></i>
+                    <div>
+                        <p class="font-bold text-lg text-white">Our Address</p>
+                        <p class="text-gray-400">220 Laxmi Nagar, New Delhi 110092.</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4 bg-gray-800 p-6 rounded-xl">
+                    <i class="fas fa-envelope text-yellow-500 text-2xl mt-1"></i>
+                    <div>
+                        <p class="font-bold text-lg text-white">Email Us</p>
+                        <p class="text-gray-400">elitecouncilofexperts@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex justify-center space-x-8 mb-12 text-3xl mt-12 border-t border-gray-800 pt-10">
+                <a href="#" class="text-gray-400 hover:text-white transition transform hover:scale-110"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white transition transform hover:scale-110"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/919205402873" class="text-gray-400 hover:text-green-400 transition transform hover:scale-110"><i class="fab fa-whatsapp"></i></a>
+            </div>
+
+            <div class="text-gray-500 text-sm border-t border-gray-800 pt-8 mt-8">
+                <p class="mb-2 text-base font-bold text-gray-300">Contact: +91 9205402873</p>
                 <p>&copy; 2026 The EliteCouncil Of Experts. All Rights Reserved.</p>
-                <p class="mt-2">Designed by <span class="text-blue-500 font-bold">Apex Web Studio</span></p>
+                <p class="mt-4 Design-text">Designed by <span class="text-blue-500 font-black tracking-widest">APEX WEB STUDIO</span></p>
             </div>
         </div>
     </footer>
+
+    <script>
+        function sendToWhatsApp() {
+            var name = document.getElementById('name').value;
+            var mobile = document.getElementById('mobile').value;
+            var course = document.getElementById('course').value;
+            var address = document.getElementById('address').value;
+
+            if(name == "" || mobile == "" || course == "" || address == ""){
+                alert("Bhai, saari details bharna zaroori hai!");
+                return;
+            }
+
+            var whatsappNumber = "919205402873";
+            var message = "*Naya Admission Inquiry!*%0A%0A" + 
+                          "*Naam:* " + name + "%0A" + 
+                          "*Namber:* " + mobile + "%0A" + 
+                          "*Course:* " + course + "%0A" + 
+                          "*Address:* " + address;
+
+            window.open("https://wa.me/" + whatsappNumber + "?text=" + message, '_blank');
+        }
+    </script>
 
 </body>
 </html>
